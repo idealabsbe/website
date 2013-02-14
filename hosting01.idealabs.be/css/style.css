@@ -647,13 +647,14 @@ footer a:hover {color: #ffffff;}
 /* Latest News post */
 .news-jobs { margin-top: 20px;}
 .news-jobs .post li a{ color:#666; font-weight: 500;}
-.news-jobs .post li { border-top: 1px solid #cccccc;}
+.news-jobs .post li { border-top: 1px solid #cccccc; position: relative;}
 .news-jobs .post li p{padding: 10px 10px 10px 100px;}
 .news-jobs .post li.grey{background-color: #f2f2f2; min-height: 75px;}
 
 .news-jobs .date{
 	width: 75px;
-	height: 75px;
+	min-height: 75px;
+	height: 100%;
 	background-color: #1a1a1a;
 	
 	position: absolute;
