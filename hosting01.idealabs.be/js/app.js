@@ -51,6 +51,10 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 	
+	// Show more events
+	$('.btn.events').click(function(e){
+		$('.moreevents').fadeIn("fast").css({"display" : "block"});
+	});
 	
 	// CreativeSkills API
 	
